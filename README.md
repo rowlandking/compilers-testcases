@@ -1,5 +1,4 @@
-Typechecking tests for Compilers
---------------------------------
+# Typechecking tests for Compilers
 
 For the past few years, Rick Ord's CSE 131 has had a student-run repository of shared test cases. It's worked pretty well, so let's do it again.
 
@@ -18,7 +17,6 @@ I'll post a draft of the setup instructions for that model in the `readme-draft`
 If you have opinions or suggestions, please post in the Piazza thread and tell me what you think.
 
 
-Important: You can use this without Git
----------------------------------------
+# Important: You can use this without Git
 
 Whatever option we decide to use, you can always get a snapshot of the repo as a Zip file and use GitHub's online editor to share your tests. The goal is that this testing system works for everyone.

@@ -21,7 +21,8 @@ function : bool bool_two_args_one_ref(bool& b, int i) {
 }
 
 function : bool& boolref_one_arg(int a) {
-    return false;
+    bool false_ = false;
+    return false_;
 }
 
 function : int& intref_three_args(int i, bool b, float f) {

@@ -1,5 +1,5 @@
 function : void void_no_args() {
-    // nothing
+    return;
 }
 
 function : int int_no_args() {
@@ -19,7 +19,8 @@ function : bool bool_two_args_one_ref(bool& b, int i) {
 }
 
 function : bool& boolref_one_arg(int a) {
-    return false;
+    bool false_ = false;
+    return false_;
 }
 
 function : int& intref_three_args(int i, bool b, float f) {
@@ -27,7 +28,7 @@ function : int& intref_three_args(int i, bool b, float f) {
 }
 
 function : int int_one_arg_by_ref(float& i) {
-    return i;
+    return 0;
 }
 
 function : void main() {

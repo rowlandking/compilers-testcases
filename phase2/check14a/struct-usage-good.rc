@@ -1,0 +1,9 @@
+structdef MYSTRUCT {
+	int a;
+	function : void y() {}
+}
+
+function : int main() {
+	MYSTRUCT.a = 5;
+	MYSTRUCT.y();
+}

@@ -1,0 +1,3 @@
+Number of intializer expressions exceeds the array size.
+Array initialization expression is not a constant expression.
+Value of type bool is not assignable to variable of type int.

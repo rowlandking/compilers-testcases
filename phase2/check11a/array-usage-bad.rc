@@ -1,0 +1,25 @@
+const int cc = 1;
+typedef float[10] ARR;
+float[10] a;
+ARR b;
+float * d;
+int e;
+ARR[2] f;
+
+function : int main() {
+	int a = e[2];
+	b[b[2] - cc] = 2.5;
+
+	int x = 3;
+	int c = 12;
+	a[55] = 0;
+	a[0-99] = 0;
+	a[x+10] = 0;
+	a[c] = 0;
+	a[c+5] = 0;
+	a[-9] = 0;
+	f[5][7] = 0;
+	f[-9][0] = 0;
+	f[x+4][c+2] = 0;
+	f[-c][5+3] = 0;
+}

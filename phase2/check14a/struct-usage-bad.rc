@@ -1,0 +1,9 @@
+structdef MYSTRUCT {
+	int a;
+}
+function : int main() {
+	int NOTSTRUCT = 5;
+	int foo = NOTSTRUCT.SomeField;
+	int x = MYSTRUCT.SomeField;
+	MyStruct.SomeFunc();
+}

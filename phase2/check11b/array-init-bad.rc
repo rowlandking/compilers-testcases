@@ -1,0 +1,17 @@
+int[3] x;
+function : int main() {
+	float[5] a = {0,1,2,3,4.5};
+	bool[10] b = {true};
+
+	int b = 5;
+	float[3] arr = {-3, b, 3.5, 25};
+
+	int c;
+	int[2] arr1 = {c, 1};
+
+	int[5] arr2 = {2, true, -5};
+
+	typedef int[2] INTARR2;
+	INTARR2[1] matrix = { {0, 0} }; //syntax
+	bool[20] flags = {}; //syntax
+}

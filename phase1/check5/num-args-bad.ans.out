@@ -1,0 +1,10 @@
+Number of arguments (3) differs from number of parameters (2).
+Number of arguments (1) differs from number of parameters (2).
+Number of arguments (3) differs from number of parameters (2).
+Argument of type float not assignable to value parameter i, of type int.
+Argument of type bool not assignable to value parameter j, of type bool.
+Number of arguments (1) differs from number of parameters (2).
+Argument of type reference to bool not equivalent to reference parameter x, of type reference to int.
+Argument passed to reference parameter x (type int) is not a modifiable L-value.
+Argument passed to reference parameter x (type int) is not a modifiable L-value.
+Left-hand operand is not assignable (not a modifiable L-value).

@@ -1,0 +1,4 @@
+// Return in function requires a result expression, none found.
+function : int missing_return() {
+    // nothing
+}

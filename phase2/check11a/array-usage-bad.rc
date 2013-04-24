@@ -7,11 +7,11 @@ int e;
 ARR[2] f;
 
 function : int main() {
-	int a = e[2];
+	int a1 = e[2];
 	b[b[2] - cc] = 2.5;
 
-	int x = 3;
-	int c = 12;
+	const int x = 3;
+	const int c = 12;
 	a[55] = 0;
 	a[0-99] = 0;
 	a[x+10] = 0;

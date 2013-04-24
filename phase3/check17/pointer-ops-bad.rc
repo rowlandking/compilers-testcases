@@ -8,5 +8,6 @@ function : void main() {
 
 	if (x == b || x != b ) {}
 	
-	int a = nullptr; //error	
+	int a;
+	a = nullptr; //error	
 }

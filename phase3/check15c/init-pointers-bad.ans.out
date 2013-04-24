@@ -1,2 +1,5 @@
-Initialization value of type int* not assignable to constant/variable of type bool*.
-Initialization value of type int* not assignable to constant/variable of type bool*.
+Error, "phase3/check15c/init-pointers-bad.rc":
+  Initialization value of type int* not assignable to constant/variable of type bool*.
+Error, "phase3/check15c/init-pointers-bad.rc":
+  Initialization value of type int* not assignable to constant/variable of type bool*.
+Compile: failure.

@@ -1,3 +1,7 @@
+Error, "/phase2/check14b/struct-this-bad.rc":
 Referenced field x not found in current struct.
+Error, "/phase2/check14b/struct-this-bad.rc":
 Referenced field y not found in current struct.
+Error, "/phase2/check14b/struct-this-bad.rc":
 Referenced field fubar not found in current struct.
+Compile: failure.

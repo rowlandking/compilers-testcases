@@ -1,3 +1,5 @@
-int * x = 5;
-new x;
-delete x;
+int * x;
+function : void main() { 
+	new x;
+	delete x;
+}

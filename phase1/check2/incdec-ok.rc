@@ -21,4 +21,5 @@ function : int main() {
     int e = a++ + ++c;
 
     float f = b-- - --d;
+	return 0;
 }

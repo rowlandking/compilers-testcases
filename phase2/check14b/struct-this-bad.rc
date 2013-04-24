@@ -4,5 +4,6 @@ structdef MYS {
 		this.x = 8;
 		z = this.y;
 		this.fubar();
+		foo();
 	}
 };

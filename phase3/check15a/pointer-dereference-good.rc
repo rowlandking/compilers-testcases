@@ -1,10 +1,11 @@
 structdef MYSTRUCT {
-	int x = 5;
+	int x;
 };
 
 function : int * returnPtr() {
-	int *y = 5;
-	return y;
+	int y = 5;
+	int* yy = &y;
+	return yy;
 }
 
 function : MYSTRUCT f() {
@@ -26,5 +27,5 @@ function : void pbyReference(MYSTRUCT * mp) {
 
 function : void pbyValue(MYSTRUCT m) {
 	m.x = 2;
-	pbReference(&m);
+	pbyReference(&m);
 }

@@ -1,0 +1,14 @@
+Error
+Incompatible types to operator ==:
+	*int,
+	*bool;
+	both must be of equivalent pointer type.
+
+Error
+Incompatible types to pointer !=:
+	*int,
+	*bool;
+	both must be of equivalent pointer type.
+
+Error
+Value of type nullptr not assignable to variable of type int.

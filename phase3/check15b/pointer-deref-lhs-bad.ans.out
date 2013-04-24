@@ -1,0 +1,5 @@
+Referenced field b not found in type MYSTRUCT.
+Referenced field b not found in type MYSTRUCT.
+Incompatible type int to unary dereference operator *, pointer expected.
+Incompatible type int to operator ->, pointer to struct expected.
+Incompatible type int to unary dereference operator *, pointer expected.

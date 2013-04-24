@@ -1,0 +1,2 @@
+Error, "/phase3/check21/address-of-functions.rc":
+Non-addressable argument of type function : int () to address-of operator.

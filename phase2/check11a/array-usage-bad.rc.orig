@@ -7,7 +7,11 @@ int e;
 ARR[2] f;
 
 function : int main() {
+<<<<<<< HEAD
+	int a1 = e[2];
+=======
 	int i = e[2];
+>>>>>>> b2da5461fbdae732c339b6aa0ee81064cd8bec78
 	b[b[2] - cc] = 2.5;
 
 	const int x = 3;

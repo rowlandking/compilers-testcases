@@ -9,7 +9,7 @@ function : int main() {
 
 	bar(x);
 
-	baz(&x);
+	baz(x);
 
 	retByReference() = 5;
 

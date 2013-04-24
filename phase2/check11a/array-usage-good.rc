@@ -13,6 +13,7 @@ function : int main() {
 	a[cc] = 5;
 	a[cc+1] = 12;
 
-	c[1][9] = a[2];
+	c[1][9] = b[2];
 	c[x+0][cc+2] = 6;
+	return 0;
 }

@@ -14,13 +14,13 @@ function : void main() {
 	//Pass by reference and not equivalent
 	float y = 1.0;
 	bool b = false;
-	bar(&y);
-	bar(&x, &b);
+	bar(y);
+	bar(x, b);
 
 	//Pass by reference and not a modifiable L-value
 	const int c = 5;
-	bar(&c, &x);
-	bar(&x, 2);
+	bar(c, x);
+	bar(x, 2);
 
 	//Calls to functions that are not return by reference
 	foo(5, 6) = 3;

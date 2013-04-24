@@ -1,14 +1,15 @@
-Error
-Incompatible types to operator ==:
+Error, "phase3/check17/pointer-ops-bad.rc":
+  Incompatible types to operator ==:
 	*int,
 	*bool;
 	both must be of equivalent pointer type.
 
-Error
-Incompatible types to pointer !=:
+Error, "phase3/check17/pointer-ops-bad.rc":
+  Incompatible types to pointer !=:
 	*int,
 	*bool;
 	both must be of equivalent pointer type.
 
-Error
-Value of type nullptr not assignable to variable of type int.
+Error, "phase3/check17/pointer-ops-bad.rc":  
+  Value of type nullptr not assignable to variable of type int.
+Compile: failure.

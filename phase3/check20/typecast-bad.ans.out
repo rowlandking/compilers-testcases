@@ -1,17 +1,17 @@
-Error, "/phase3/check20/typecast-bad.rc":
-Invalid type cast. Type funcptr : int() to type funcptr : float() is not supported.
-Error, "/phase3/check20/typecast-bad.rc":
-Left-hand operand is not assignable (not a modifiable L-value).
-Error, "/phase3/check20/typecast-bad.rc":
-Argument passed to reference parameter x (type int &) is not a modifiable L-value.
-Error, "/phase3/check20/typecast-bad.rc":
-Non-addressable argument of type int to address-of operator.
-Error, "/phase3/check20/typecast-bad.rc":
-Invalid type cast. Type int[10] to type float[10] is not supported.
-Error, "/phase3/check20/typecast-bad.rc":
-Invalid type cast. Type structdef {float, float} to type structdef {int, int} is not supported.
-Error, "/phase3/check20/typecast-bad.rc":
-Invalid type cast. Type float to type bool is not supported.
-Error, "/phase3/check20/typecast-bad.rc":
-Invalid type cast. Type int* to type bool is not supported.
+Error, "phase3/check20/typecast-bad.rc":
+  Invalid type cast. Type funcptr : int() to type funcptr : float() is not supported.
+Error, "phase3/check20/typecast-bad.rc":
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/typecast-bad.rc":
+  Argument passed to reference parameter x (type int &) is not a modifiable L-value.
+Error, "phase3/check20/typecast-bad.rc":
+  Non-addressable argument of type int to address-of operator.
+Error, "phase3/check20/typecast-bad.rc":
+  Invalid type cast. Type int[10] to type float[10] is not supported.
+Error, "phase3/check20/typecast-bad.rc":
+  Invalid type cast. Type structdef {float, float} to type structdef {int, int} is not supported.
+Error, "phase3/check20/typecast-bad.rc":
+  Invalid type cast. Type float to type bool is not supported.
+Error, "phase3/check20/typecast-bad.rc":
+  Invalid type cast. Type int* to type bool is not supported.
 Compile failure.

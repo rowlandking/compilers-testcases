@@ -3,7 +3,7 @@ int[2] b;
 float[3] c;
 float* [4] d;
 
-function : int main() {
+function : void main() {
 	foreach (float x : a) { } // Error, ‘a’ is not an array type
 	foreach (bool x : b) { } // Error, int not assignable to bool
 	foreach (float x : b) { } // OK, int assignable to float

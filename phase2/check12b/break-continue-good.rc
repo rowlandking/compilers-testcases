@@ -1,5 +1,5 @@
 int[2] b;
-function : int main() {
+function : void main() {
 	foreach (float x : b) {break;}
 	foreach (float i : b) {continue;}
 	while(true) {break;}

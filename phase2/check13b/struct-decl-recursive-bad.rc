@@ -2,6 +2,6 @@ structdef MYSTRUCT {
 	MYSTRUCT myRecursiveStruct;
 };
 
-structdef MYSTRUCT {
-	MYSTRUCT* myRecursivePtr; //valid, no error
-}
+structdef MYSTRUCT1 {
+	MYSTRUCT1* myRecursivePtr; //valid, no error
+};

@@ -1,3 +1,1 @@
-Error, "phase1/check3c/decltype-good.rc": 
-  Operand to ++ is not a modifiable L-value.
-Compile: failure.
+Compile: success.

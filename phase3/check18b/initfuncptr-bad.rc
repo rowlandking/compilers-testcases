@@ -6,5 +6,8 @@ funcptr : int() fp1 = foo; //variable declaration with init
 funcptr : int() fp2; //variable declaration without init
 funcptr : int() fp3 = nullptr;
 funcptr : int() fp4 = fubar; //error
-fp2 = x; //error
-fp2 = fubar; //error
+
+function : void main() {
+	fp2 = x; //error
+	fp2 = fubar; //error
+}

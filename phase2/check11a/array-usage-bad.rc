@@ -6,7 +6,7 @@ float * d;
 int e;
 ARR[2] f;
 
-function : int main() {
+function : void main() {
 	int i = e[2];
 	b[b[2] - cc] = 2.5;
 

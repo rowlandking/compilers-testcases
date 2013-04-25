@@ -1,7 +1,7 @@
-Error, "phase2/check11a/array-usage-bad.rc":
-  Number of intializer expressions exceeds the array size.
-Error, "phase2/check11a/array-usage-bad.rc":
+Error, "phase2/check11b/array-init-bad.rc": 
+  Number of initializer expressions exceeds the array size.
+Error, "phase2/check11b/array-init-bad.rc": 
   Array initialization expression is not a constant expression.
-Error, "phase2/check11a/array-usage-bad.rc":
-  Value of type bool is not assignable to variable of type int.
+Error, "phase2/check11b/array-init-bad.rc": 
+  Value of type bool not assignable to variable of type int.
 Compile: failure.

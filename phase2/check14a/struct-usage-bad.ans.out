@@ -1,7 +1,7 @@
-Error, "phase2/check14a/struct-usage-bad.rc":
-  Type of expressions referenced by . (int) is not a struct.
-Error, "phase2/check14a/struct-usage-bad.rc":
+Error, "phase2/check14a/struct-usage-bad.rc": 
+  Type of expression referenced by "." (int) is not a struct.
+Error, "phase2/check14a/struct-usage-bad.rc": 
   Referenced field SomeField not found in type MYSTRUCT.
-Error, "phase2/check14a/struct-usage-bad.rc":
+Error, "phase2/check14a/struct-usage-bad.rc": 
   Referenced field SomeFunc not found in type MYSTRUCT.
 Compile: failure.

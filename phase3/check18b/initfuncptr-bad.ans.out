@@ -1,7 +1,5 @@
-Error, "phase3/check18b/initfuncptr-bad.rc":
-  Initialization value of type function : float not assignable to constant/variable of type funcptr : int ().
-Error, "phase3/check18b/initfuncptr-bad.rc":
-  Initialization value of type int not assignable to constant/variable of type functpr : int().
-Error, "phase3/check18b/initfuncptr-bad.rc":
-  Initialization value of type function : float not assignable to constant/variable of type funcptr : int ().
-Compile failure.
+Error, "phase3/check18b/initfuncptr-bad.rc": 
+  Initialization value of type int not assignable to constant/variable of type funcptr : int ().
+Error, "": 
+  Initialization value of type funcptr : float () not assignable to constant/variable of type funcptr : int ().
+Compile: failure.

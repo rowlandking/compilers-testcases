@@ -24,10 +24,10 @@ function : void main() {
 	b = (int *)f;
 
 	//Converstion of int, pointer to float
-	f = (float)i;
-	f = (float)p;
+	a = (float)i;
+	a = (float)p;
 
 	//Conversion of int to pointer and pointer to int
-	i = (int)p;
-	p = (int *)i;
+	z = (int)p;
+	b = (int *)i;
 }

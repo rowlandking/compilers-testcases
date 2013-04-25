@@ -16,7 +16,7 @@ function : void doStuff(int* foo, int* bar) {}
 
 function : int & doMoreStuff (int &x, int y) {
 	return x;
-};
+}
 
 function : int main() {
 	if (myPtr1 == nullptr) {

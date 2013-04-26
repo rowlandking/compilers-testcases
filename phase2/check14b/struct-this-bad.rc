@@ -1,0 +1,9 @@
+int z;
+structdef MYS {
+	function : void foo() {
+		this.x = 8;
+		z = this.y;
+		this.fubar();
+		foo();
+	}
+};

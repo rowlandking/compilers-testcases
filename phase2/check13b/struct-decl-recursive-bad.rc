@@ -1,0 +1,7 @@
+structdef MYSTRUCT {
+	MYSTRUCT myRecursiveStruct;
+};
+
+structdef MYSTRUCT1 {
+	MYSTRUCT1* myRecursivePtr; //valid, no error
+};

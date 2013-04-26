@@ -1,0 +1,7 @@
+Error, "phase2/check11b/array-init-bad.rc": 
+  Number of initializer expressions exceeds the array size.
+Error, "phase2/check11b/array-init-bad.rc": 
+  Array initialization expression is not a constant expression.
+Error, "phase2/check11b/array-init-bad.rc": 
+  Value of type bool not assignable to variable of type int.
+Compile: failure.

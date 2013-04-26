@@ -1,0 +1,7 @@
+int[2] b;
+function : void main() {
+	foreach (float x : b) {break;}
+	foreach (float i : b) {continue;}
+	while(true) {break;}
+	while(false){continue;}
+}

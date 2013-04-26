@@ -1,0 +1,48 @@
+function : void legal_while() {
+    while (1) {
+        break;
+    }
+
+    while (true) {
+        continue;
+    }
+
+    while (2 == 3) {
+        if (true) {
+            continue;
+        }
+        else {
+            break;
+        }
+    }
+}
+
+function : void legal_foreach() {
+    int[5] ints;
+
+    foreach (int i : ints) {
+        continue;
+    }
+
+    foreach (int i : ints) {
+        break;
+    }
+
+    foreach (int i : ints) {
+        if (false) {
+            break;
+
+            if (true) {
+                continue;
+            }
+            else {
+                break;
+                continue;
+            }
+        }
+        else {
+            continue;
+            break;
+        }
+    }
+}

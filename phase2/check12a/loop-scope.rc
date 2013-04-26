@@ -1,0 +1,18 @@
+// This file should compile with no errors.
+
+function : void test1() {
+    typedef int[5] INT5__;
+    typedef INT5__ INT5_;
+    typedef INT5_ INT5;
+
+    INT5[10] int5_10; // 10 INT5s
+
+    // Assume WNBT
+    // foreach (INT5 i5 : int5_10) {
+    //     i5[0] = 2;
+    // }
+
+    foreach (int i : int5_10[2]) {
+        int5_10[2][0] = i;
+    }
+}

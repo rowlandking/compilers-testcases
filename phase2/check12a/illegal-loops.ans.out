@@ -1,0 +1,17 @@
+Error, "phase2/check12a/illegal-loops.rc": 
+  Type of expression referenced in foreach is not of array type.
+Error, "phase2/check12a/illegal-loops.rc": 
+  Type of expression referenced in foreach is not of array type.
+Error, "phase2/check12a/illegal-loops.rc": 
+  Type of expression referenced in foreach is not of array type.
+Error, "phase2/check12a/illegal-loops.rc": 
+  Foreach array element of type float not assignable to value iteration variable i, of type int.
+Error, "phase2/check12a/illegal-loops.rc": 
+  Foreach array element of type float* not assignable to value iteration variable f, of type float[2].
+Error, "phase2/check12a/illegal-loops.rc": 
+  Foreach array element of type FLOATP2 not assignable to value iteration variable f, of type float.
+Error, "phase2/check12a/illegal-loops.rc": 
+  Foreach array element of type FLOAT5 not assignable to value iteration variable f, of type float.
+Error, "phase2/check12a/illegal-loops.rc": 
+  Foreach array element of type int not equivalent to reference iteration variable f, of type float.
+Compile: failure.

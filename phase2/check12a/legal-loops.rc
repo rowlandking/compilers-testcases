@@ -1,0 +1,51 @@
+// This file should compile with no errors.
+
+function : void pointers_by_value() {
+    int*** int_ppp, ***[5] int_ppp_5;
+
+    foreach (int*** ippp : int_ppp_5) {
+        ippp = int_ppp;
+        int_ppp = ippp;
+    }
+}
+
+function : void array_expressions() {
+    typedef bool[5] BOOL5;
+    typedef BOOL5[3] BOOL5_3;
+    typedef BOOL5_3[10] BOOL5_3_10;
+
+    bool[5] bool_array = {true, true, true, false, false};
+    BOOL5_3_10 bool_array_array_array;
+
+    foreach (bool b : bool_array) {
+        b = false;
+    }
+
+    foreach (bool b : bool_array_array_array[7][2]) {
+        b = true;
+    }
+}
+
+function : void assignable_values() {
+    typedef float[5] FLOAT5;
+    typedef int[5] INT5;
+
+    FLOAT5 float5;
+    INT5 int5;
+
+    foreach (float f : int5) {
+        f++;
+    }
+
+    foreach (float f : float5) {
+        f--;
+    }
+}
+
+function : void equivalent_references() {
+    int[0xFF] lots_of_ints;
+
+    foreach (int& i : lots_of_ints) {
+        i = 1 + 2;
+    }
+}

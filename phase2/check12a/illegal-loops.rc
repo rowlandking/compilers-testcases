@@ -1,0 +1,48 @@
+function : void nonarray_expressions() {
+    bool scalar_bool = true;
+    bool[5] bool_array = {true, true, true, false, false};
+
+    // Type of expression referenced in foreach is not of array type.
+    foreach (int i : 0) {}
+
+    // Type of expression referenced in foreach is not of array type.
+    foreach (bool b : bool_array[2]) {}
+
+    // Type of expression referenced in foreach is not of array type.
+    foreach (bool b : scalar_bool) {}
+}
+
+function : void nonassignable_values() {
+    typedef float[5] FLOAT5;
+    typedef float*[2] FLOATP2;
+
+    FLOAT5 five_floats = {1, 2.0, 3.0, 4.0, 5.0};
+    float*[5] five_float_pointers;
+    FLOATP2[2] two_float_pointer_arrays;
+    FLOAT5[3] three_float5s;
+
+    // Foreach array element of type float not assignable to
+    // value iteration variable i, of type int.
+    foreach (int i : five_floats) {}
+
+    // Foreach array element of type float* not assignable to
+    // value iteration variable f, of type float[2].
+    foreach (float[2] f : five_float_pointers) {}
+
+    // Foreach array element of type FLOATP2 not assignable to
+    // value iteration variable f, of type float.
+    foreach (float f : two_float_pointer_arrays) {}
+
+    // Foreach array element of type FLOAT5 not assignable to
+    // value iteration variable f, of type float.
+    foreach (float f : three_float5s) {}
+}
+
+function : void nonequivalent_references() {
+    int[0xFF] lots_of_ints;
+    float*** fppp, ****[30] fppp30;
+
+    // Foreach array element of type int not equivalent to
+    // reference iteration variable f, of type float.
+    foreach (float& f : lots_of_ints) {}
+}

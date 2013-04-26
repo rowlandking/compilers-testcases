@@ -5,17 +5,17 @@ function : void illegal_access() {
         function : int update_count(int a, int b) {
             int total = 0;
 
-            // Referenced field __count__ not found in type STRUCT.
+            // Referenced field __count__ not found in current struct.
             total = this.__count__ + a;
 
-            // Referenced field __count__ not found in type STRUCT.
+            // Referenced field __count__ not found in current struct.
             this.__count__ = total + b;
 
             return 1;
         }
 
         function : void call_missing_function() {
-            // Referenced field missing_function not found in type STRUCT.
+            // Referenced field missing_function not found in current struct.
             this.missing_function();
 
             this.call_missing_function();

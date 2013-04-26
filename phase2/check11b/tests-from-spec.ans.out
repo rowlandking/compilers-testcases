@@ -3,9 +3,9 @@ Error, "phase2/check11b/tests-from-spec.rc":
 Error, "phase2/check11b/tests-from-spec.rc": 
   Array initialization expression is not a constant expression.
 Error, "phase2/check11b/tests-from-spec.rc": 
-  Value of type bool not assignable to variable of type int[5].
+  Value of type bool not assignable to variable of type int.
 Error, "phase2/check11b/tests-from-spec.rc": 
-  Value of type float not assignable to variable of type int[3].
+  Value of type float not assignable to variable of type int.
 Error, "phase2/check11b/tests-from-spec.rc": 
   Number of initializer expressions exceeds the array size.
 Error, "phase2/check11b/tests-from-spec.rc": 

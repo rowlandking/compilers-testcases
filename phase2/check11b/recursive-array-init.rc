@@ -1,0 +1,6 @@
+function : void main() {
+    typedef int[2] INTARR4;
+
+    // syntax error near "{".
+    INTARR4[1] matrix = { {0, 0} }; // Syntax error on inner array init.
+}

@@ -1,0 +1,4 @@
+function : void main() {
+    // syntax error near "}".
+    bool[20] flags = {}; // Syntax error
+}

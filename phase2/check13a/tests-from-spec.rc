@@ -1,0 +1,23 @@
+function : void main() {
+    structdef MYS {
+        int x, y;
+
+        // Field x declared second time in struct.
+        int x;
+
+        // Field x declared second time in struct.
+        int z, x;
+
+        // Field y declared second time in struct.
+        function : void y() {}
+
+        function : void f(int& x) {
+            x = x + 1; // No error with x (inner scope)
+        }
+
+        function : void foo() {}
+
+        // Field foo declared second time in struct.
+        function : void foo() {}
+    };
+}

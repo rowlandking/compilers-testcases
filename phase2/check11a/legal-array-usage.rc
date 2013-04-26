@@ -40,7 +40,7 @@ function : void multidimensional_arrays() {
 
 typedef int[10] INT10;
 
-function : void fn(int[10]& i10, INT10& i10_alias, INT10* I10p) {
+function : void fn(int[10]& i10, INT10& i10_alias, int* intp) {
     return;
 }
 

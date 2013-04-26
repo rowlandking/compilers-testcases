@@ -1,0 +1,3 @@
+Error, "phase2/check14b/scoping-rules.rc": 
+  undeclared identifier 'x'.
+Compile: failure.

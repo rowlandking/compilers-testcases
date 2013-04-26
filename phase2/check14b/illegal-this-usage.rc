@@ -1,0 +1,27 @@
+function : void illegal_access() {
+    structdef STRUCT {
+        int x, y, *z;
+
+        function : int update_count(int a, int b) {
+            int total = 0;
+
+            // Referenced field __count__ not found in type STRUCT.
+            total = this.__count__ + a;
+
+            // Referenced field __count__ not found in type STRUCT.
+            this.__count__ = total + b;
+
+            return 1;
+        }
+
+        function : void call_missing_function() {
+            // Referenced field missing_function not found in type STRUCT.
+            this.missing_function();
+
+            this.call_missing_function();
+
+            // Number of arguments (0) differs from number of parameters (2).
+            this.update_count();
+        }
+    };
+}

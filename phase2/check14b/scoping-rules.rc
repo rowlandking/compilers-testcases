@@ -1,0 +1,25 @@
+int z;
+
+function : void main() {
+    int y;
+
+    structdef MYS {
+        int x, y;
+        int z;
+
+        function : void foo() {
+            int q = 4;
+
+            // undeclared identifier 'x'.
+            this.x = x + 8;
+
+            this.z = y + z + q;
+
+            this.foo(); // recursive call
+        }
+
+        function : void bar() {
+            this.foo(); // calling other struct function
+        }
+    };
+}

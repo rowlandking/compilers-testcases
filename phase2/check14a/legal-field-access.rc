@@ -3,9 +3,13 @@ function : void legal_access() {
         int x, y;
     };
 
-    structdef ONE_FUNCTION {
-        function : int fn() {
+    structdef TWO_FUNCTIONS {
+        function : int fn1() {
             return 0;
+        }
+
+        function : bool fn2() {
+            return true;
         }
     };
 
@@ -14,16 +18,18 @@ function : void legal_access() {
     };
 
     TWO_INT_FIELDS two_ints;
-    ONE_FUNCTION one_function;
+    TWO_FUNCTIONS two_functions;
     ONE_ARRAY one_int5;
 
     int a = two_ints.x;
 
     int b = two_ints.y + a;
 
-    int c = one_function.fn();
+    int c = two_functions.fn1();
 
     int d = one_int5.int5[1] + b;
+
+    bool e = two_functions.fn2() && true;
 }
 
 function : void legal_calls() {

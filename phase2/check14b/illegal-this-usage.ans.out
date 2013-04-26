@@ -1,9 +1,9 @@
-Error, "phase2/check14b/illegal-this-usage.rc":
+Error, "phase2/check14b/illegal-this-usage.rc": 
   Referenced field __count__ not found in current struct.
-Error, "phase2/check14b/illegal-this-usage.rc":
+Error, "phase2/check14b/illegal-this-usage.rc": 
   Referenced field __count__ not found in current struct.
-Error, "phase2/check14b/illegal-this-usage.rc":
+Error, "phase2/check14b/illegal-this-usage.rc": 
   Referenced field missing_function not found in current struct.
-Error, "phase2/check14b/illegal-this-usage.rc":
+Error, "phase2/check14b/illegal-this-usage.rc": 
   Number of arguments (0) differs from number of parameters (2).
 Compile: failure.

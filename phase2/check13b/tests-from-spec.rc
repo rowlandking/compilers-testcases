@@ -1,0 +1,15 @@
+// Structs are strict-name equivalent and recursive typedefs aren't allowed,
+// so there doesn't seem to be much else to test here.
+
+function : void illegal() {
+    structdef MYSTRUCT {
+        // Size of field myRecursiveStruct cannot be determined at compile time.
+        MYSTRUCT myRecursiveStruct;
+    };
+}
+
+function : void legal() {
+    structdef MYSTRUCT {
+        MYSTRUCT* myRecursivePtr;
+    };
+}

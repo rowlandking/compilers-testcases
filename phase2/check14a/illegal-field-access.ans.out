@@ -1,0 +1,13 @@
+Error, "phase2/check14a/illegal-field-access.rc": 
+  Referenced field missing_field not found in type TWO_INT_FIELDS.
+Error, "phase2/check14a/illegal-field-access.rc": 
+  Referenced field missing_field_2 not found in type TWO_INT_FIELDS.
+Error, "phase2/check14a/illegal-field-access.rc": 
+  Referenced field missing_function not found in type ONE_FUNCTION.
+Error, "phase2/check14a/illegal-field-access.rc": 
+  Argument of type int not assignable to value parameter b, of type bool.
+Error, "phase2/check14a/illegal-field-access.rc": 
+  Argument of type int not assignable to value parameter b, of type bool.
+Error, "phase2/check14a/illegal-field-access.rc": 
+  Argument of type bool not equivalent to reference parameter f, of type float.
+Compile: failure.
